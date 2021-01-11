@@ -129,7 +129,7 @@ const reverse = (array) => {
 };
 const data = [1, 2, 3];
 console.log(reverse(data)); // [3, 2, 1]
-Collapse
+
 
 
 
