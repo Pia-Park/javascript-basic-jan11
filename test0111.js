@@ -61,7 +61,7 @@ Question 4:
 Print to the console the name of the last penguin in the list.
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-console.log(penguins[2]);
+console.log(penguins[2].name);
 ​
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Question 5: 
@@ -125,7 +125,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 ​
 const reverse = (array) => {
   //solution here
-  console.log(array.reverse());
+  // console.log(array.reverse());
+  return array.reverse();;  
+
 };
 const data = [1, 2, 3];
 console.log(reverse(data)); // [3, 2, 1]
